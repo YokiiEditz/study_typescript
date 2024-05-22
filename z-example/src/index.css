@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.yoki {
+  border: 2px solid red;
+}
+
+section {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.05rem;
+  width: 100%;
+  margin-top: 5rem;
+  height: auto;
+  border: 1px solid rgb(193, 223, 233);
+}
+
+.styled {
+  @apply m-1 p-2 border border-black rounded-md text-black;
+}
+
+.hoveres {
+  @apply hover:text-white hover:bg-black;
+}

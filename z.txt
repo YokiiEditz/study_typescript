@@ -1,0 +1,10 @@
+
+Running:
+
+"start": "nodemon --exec \"cls && node\" ./basics/src/index.js -q",
+
+"dev": "nodemon --exec \"cls && tsc && node ./basics/src/index.ts\" ./basics/dist/index.js  -q"
+  
+
+npm run start -> for JavaScript
+npm run dev -> for TypeScript
